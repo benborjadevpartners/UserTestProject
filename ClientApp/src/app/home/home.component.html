@@ -1,0 +1,26 @@
+<h1 id="tableLabel">Users</h1>
+
+<p *ngIf="!users"><em>Loading...</em></p>
+
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="users">
+  <thead>
+    <tr>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Email</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let user of users">
+      <td>{{ user.firstName }}</td>
+      <td>{{ user.lastName }}</td>
+      <td>{{ user.userName }}</td>
+      <td>
+        <a class="btn btn-success" routerLink="/home/home-detail/{{user.id}}" >View</a>
+        <a class="btn btn-info ml-1" routerLink="/register/{{user.id}}" >Edit</a>
+        <a class="btn btn-danger ml-1" (click)="deleteUser(user.id)">Delete</a>
+      </td>
+    </tr>
+  </tbody>
+</table>

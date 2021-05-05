@@ -1,0 +1,27 @@
+<div class="card mt-5" style="margin:auto;width: 600px;" >
+  <div class="card-body">
+    <h5 class="card-title">View User</h5>
+    <div class="form-group">
+      <label>Id:</label>
+      <span> {{model.id}}</span>
+    </div>
+    <div class="form-group">
+      <label>First Name:</label>
+      <span> {{model.firstName}}</span>
+    </div>
+    <div class="form-group">
+      <label>Last Name:</label>
+      <span> {{model.lastName}}</span>
+    </div>
+    <div class="form-group">
+      <label>Email:</label>
+      <span> {{model.userName}}</span>
+    </div>
+  </div>
+  <div class="card-footer">
+    <div>
+      <a [routerLink]="['/']" class="btn btn-link">Back to list</a>
+    </div>
+  </div>
+</div>
+

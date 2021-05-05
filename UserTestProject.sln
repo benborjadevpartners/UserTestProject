@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserTestProject", "UserTestProject.csproj", "{627F6D1A-4D68-4585-8970-E8E3831FF024}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularCoreTests", "..\AngularCoreTests\AngularCoreTests.csproj", "{6EA21B6F-26B8-47E4-897F-5FD9E1E714DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{627F6D1A-4D68-4585-8970-E8E3831FF024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{627F6D1A-4D68-4585-8970-E8E3831FF024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{627F6D1A-4D68-4585-8970-E8E3831FF024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{627F6D1A-4D68-4585-8970-E8E3831FF024}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EA21B6F-26B8-47E4-897F-5FD9E1E714DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EA21B6F-26B8-47E4-897F-5FD9E1E714DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EA21B6F-26B8-47E4-897F-5FD9E1E714DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EA21B6F-26B8-47E4-897F-5FD9E1E714DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC2270FC-687B-4288-B185-81A1052F5A0D}
+	EndGlobalSection
+EndGlobal
